@@ -1,0 +1,81 @@
+/* 
+ * 只需要给自己设定的页面写样式即可 
+ *   已经设定好的PAGE?样式
+ *     每一个页面都是一屏幕
+ *     都设置了position:relative，这样每一页的子元素都相当于当前页面定位
+ *     溢出的内容都隐藏了
+ *     ......
+ */
+/* ==PAGE1== */
+
+.page1 img {
+    position: absolute;
+}
+.page1 img:nth-of-type(1){
+    height: 100%;
+    width: 100%;
+}
+.page1 img:nth-of-type(2) {
+    /* 所有测量出来的尺寸都要除以100变为REM */
+    width: 2rem;
+    height: 3rem;
+    left: 0rem;
+    top: .1rem;
+}
+
+
+}
+
+/* ==PAGE2== */
+
+.page2 img {
+    position: absolute;
+}
+.page2 img:nth-of-type(1){
+    height: 100%;
+    width: 100%;
+}
+.page2 img:nth-of-type(2) {
+    width:2rem;
+    height: 3rem;
+    left: 0;
+    top: .1rem;
+}
+
+
+.page3 img {
+    position: absolute;
+}
+.page3 img:nth-of-type(1){
+    height: 100%;
+    width: 100%;
+}
+.page3 img:nth-of-type(2) {
+    width: 2rem;
+    height: 3rem;
+    left: 0;
+    top: .1rem;
+}
+
+
+
+.page4 img {
+    position: absolute;
+}
+.page4 img:nth-of-type(1){
+    height: 100%;
+    width: 100%;
+}
+.page4 img:nth-of-type(2) {
+    width: 2rem;
+    height: 3rem;
+    left: 0;
+    top: .1rem;
+}
+
+
+
+
+
+
+
